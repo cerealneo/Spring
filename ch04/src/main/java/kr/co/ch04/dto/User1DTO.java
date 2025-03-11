@@ -6,22 +6,6 @@ public class User1DTO {
     private String hp;
     private int age;
 
-    public String getUid() {
-        return uid;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public String getHp() {
-        return hp;
-    }
-
-    public int getAge() {
-        return age;
-    }
-
     public void setUid(String uid) {
         this.uid = uid;
     }
@@ -36,6 +20,22 @@ public class User1DTO {
 
     public void setAge(int age) {
         this.age = age;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public String getHp() {
+        return hp;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public String getUid() {
+        return uid;
     }
 
     @Override

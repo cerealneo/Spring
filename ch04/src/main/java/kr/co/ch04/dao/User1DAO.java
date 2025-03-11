@@ -31,15 +31,26 @@ public class User1DAO {
     }
 
     public User1DTO selectUser1(String uid){
-        return null;
+        String sql = "select * from user1 where uid=?";
+        Object[] params = {uid};
+
+        return jdbcTemplate.queryForObject(sql, new User1RowMapper(), params);
     }
 
-    public List<User1DTO> selectAllUser1(User1DTO dto){
-        return null;
+    public List<User1DTO> selectAllUser1(){
+        String sql = "select * from user1";
+        return jdbcTemplate.query(sql, new User1RowMapper());
     }
 
     public void updateUser1(User1DTO dto){
-
+        String sql = "update user1 set name=?,hp=?,age=? where uid=?";
+        Object[] params = {
+                dto.getName(),
+                dto.getHp(),
+                dto.getAge(),
+                dto.getUid()
+        };
+        jdbcTemplate.update(sql, params);
     }
 
     public void deleteUser1(String uid){
