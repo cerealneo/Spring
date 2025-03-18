@@ -1,0 +1,49 @@
+2025-03-17T11:43:53.640+09:00  INFO 15504 --- [ch07] [restartedMain] kr.co.ch07.Ch07Application               : Starting Ch07Application using Java 17.0.12 with PID 15504 (C:\Users\lotte06\Desktop\workspace\Spring\ch07\build\classes\java\main started by lotte06 in C:\Users\lotte06\Desktop\workspace\Spring\ch07)
+2025-03-17T11:43:53.643+09:00  INFO 15504 --- [ch07] [restartedMain] kr.co.ch07.Ch07Application               : No active profile set, falling back to 1 default profile: "default"
+2025-03-17T11:43:53.688+09:00  INFO 15504 --- [ch07] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-03-17T11:43:53.688+09:00  INFO 15504 --- [ch07] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-03-17T11:43:54.181+09:00  INFO 15504 --- [ch07] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-03-17T11:43:54.224+09:00  INFO 15504 --- [ch07] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 35 ms. Found 1 JPA repository interface.
+2025-03-17T11:43:54.623+09:00  INFO 15504 --- [ch07] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-03-17T11:43:54.633+09:00  INFO 15504 --- [ch07] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-03-17T11:43:54.633+09:00  INFO 15504 --- [ch07] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-03-17T11:43:54.666+09:00  INFO 15504 --- [ch07] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/ch07]   : Initializing Spring embedded WebApplicationContext
+2025-03-17T11:43:54.667+09:00  INFO 15504 --- [ch07] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 978 ms
+2025-03-17T11:43:54.787+09:00  INFO 15504 --- [ch07] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-03-17T11:43:54.826+09:00  INFO 15504 --- [ch07] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.8.Final
+2025-03-17T11:43:54.857+09:00  INFO 15504 --- [ch07] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-03-17T11:43:55.141+09:00  INFO 15504 --- [ch07] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-03-17T11:43:55.166+09:00  INFO 15504 --- [ch07] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-03-17T11:43:55.418+09:00  INFO 15504 --- [ch07] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@63eea6f
+2025-03-17T11:43:55.420+09:00  INFO 15504 --- [ch07] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-03-17T11:43:55.470+09:00  WARN 15504 --- [ch07] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-03-17T11:43:55.486+09:00  INFO 15504 --- [ch07] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.4.3
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-03-17T11:43:55.491+09:00 DEBUG 15504 --- [ch07] [restartedMain] o.h.t.d.sql.spi.DdlTypeRegistry          : addDescriptor(12, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@171f7bc1) replaced previous registration(org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@4aa02f72)
+2025-03-17T11:43:55.491+09:00 DEBUG 15504 --- [ch07] [restartedMain] o.h.t.d.sql.spi.DdlTypeRegistry          : addDescriptor(-9, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@2104498) replaced previous registration(org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@3e7918d)
+2025-03-17T11:43:55.491+09:00 DEBUG 15504 --- [ch07] [restartedMain] o.h.t.d.sql.spi.DdlTypeRegistry          : addDescriptor(-3, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@6fca2343) replaced previous registration(org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@24da5a77)
+2025-03-17T11:43:55.492+09:00 DEBUG 15504 --- [ch07] [restartedMain] o.h.t.d.sql.spi.DdlTypeRegistry          : addDescriptor(4003, org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@24eeeef0) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@1bba7819)
+2025-03-17T11:43:55.492+09:00 DEBUG 15504 --- [ch07] [restartedMain] o.h.t.d.sql.spi.DdlTypeRegistry          : addDescriptor(4001, org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@25d49016) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@532b6f39)
+2025-03-17T11:43:55.492+09:00 DEBUG 15504 --- [ch07] [restartedMain] o.h.t.d.sql.spi.DdlTypeRegistry          : addDescriptor(4002, org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@e192c2) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@48535877)
+2025-03-17T11:43:55.492+09:00 DEBUG 15504 --- [ch07] [restartedMain] o.h.t.d.sql.spi.DdlTypeRegistry          : addDescriptor(2004, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@4906354b) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@415cd9f5)
+2025-03-17T11:43:55.493+09:00 DEBUG 15504 --- [ch07] [restartedMain] o.h.t.d.sql.spi.DdlTypeRegistry          : addDescriptor(2005, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@4d27349e) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@1fe55dad)
+2025-03-17T11:43:55.493+09:00 DEBUG 15504 --- [ch07] [restartedMain] o.h.t.d.sql.spi.DdlTypeRegistry          : addDescriptor(2011, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@67b18f77) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@40056105)
+2025-03-17T11:43:56.165+09:00  INFO 15504 --- [ch07] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-03-17T11:43:56.425+09:00  INFO 15504 --- [ch07] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-03-17T11:43:56.621+09:00  WARN 15504 --- [ch07] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-17T11:43:56.646+09:00  INFO 15504 --- [ch07] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2025-03-17T11:43:56.902+09:00  INFO 15504 --- [ch07] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-03-17T11:43:56.930+09:00  INFO 15504 --- [ch07] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/ch07'
+2025-03-17T11:43:56.937+09:00  INFO 15504 --- [ch07] [restartedMain] kr.co.ch07.Ch07Application               : Started Ch07Application in 3.874 seconds (process running for 4.648)
+2025-03-17T11:44:01.818+09:00  INFO 15504 --- [ch07] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/ch07]   : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-17T11:44:01.819+09:00  INFO 15504 --- [ch07] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-03-17T11:44:01.820+09:00  INFO 15504 --- [ch07] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-03-17T11:44:13.641+09:00  INFO 15504 --- [ch07] [http-nio-8080-exec-7] kr.co.ch07.service.User1Service          : optUser1 : Optional[User1(uid=A102, name=김춘추, hp=010-1234-9999, age=99)]
+2025-03-17T11:45:58.693+09:00  INFO 15504 --- [ch07] [http-nio-8080-exec-6] kr.co.ch07.service.User1Service          : user1DTO : User1DTO(uid=aaa, name=홍, hp=010-1234-4567, age=22)
+2025-03-17T11:45:58.693+09:00  INFO 15504 --- [ch07] [http-nio-8080-exec-6] kr.co.ch07.service.User1Service          : user1 : User1(uid=aaa, name=홍, hp=010-1234-4567, age=22)
