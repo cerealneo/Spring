@@ -57,6 +57,24 @@ public class UserController {
         return "/user/info";
     }
 
+    /*
+        코드 기반 인가처리 예제
+    */
+    @PreAuthorize("hasRole('ADMIN')")
+    @GetMapping("/user/admin")
+    public String admin(){
+        return "/admin/index";
+    }
 
+    @PreAuthorize("hasRole('ADMIN') or hasRole('MANAGER')")
+    @GetMapping("/user/manager")
+    public String manager(){
+        return "/manager/index";
+    }
 
+    @PreAuthorize("hasAnyRole('ADMIN', 'MANAGER', 'STAFF')")
+    @GetMapping("/user/staff")
+    public String staff(){
+        return "/staff/index";
+    }
 }
