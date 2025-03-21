@@ -261,3 +261,8 @@
 2025-03-20T16:11:17.713+09:00  INFO 10860 --- [ch09] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/ch09'
 2025-03-20T16:11:17.716+09:00  INFO 10860 --- [ch09] [restartedMain] kr.co.ch09.Ch09Application               : Started Ch09Application in 0.429 seconds (process running for 7234.682)
 2025-03-20T16:11:17.718+09:00  INFO 10860 --- [ch09] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-03-20T18:16:54.175+09:00  INFO 10860 --- [ch09] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-03-20T18:16:54.240+09:00  INFO 10860 --- [ch09] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-03-20T18:16:54.244+09:00  INFO 10860 --- [ch09] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-03-20T18:16:54.248+09:00  INFO 10860 --- [ch09] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown initiated...
+2025-03-20T18:16:54.251+09:00  INFO 10860 --- [ch09] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown completed.
