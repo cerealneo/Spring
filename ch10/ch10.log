@@ -1491,3 +1491,8 @@ Identify and stop the process that's listening on port 8080 or configure this ap
 2025-03-21T12:25:37.243+09:00  INFO 18804 --- [ch10] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/ch10'
 2025-03-21T12:25:37.246+09:00  INFO 18804 --- [ch10] [restartedMain] kr.co.ch10.Ch10Application               : Started Ch10Application in 0.673 seconds (process running for 3397.791)
 2025-03-21T12:25:37.247+09:00  INFO 18804 --- [ch10] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-03-21T12:31:11.746+09:00  INFO 18804 --- [ch10] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-03-21T12:31:11.809+09:00  INFO 18804 --- [ch10] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-03-21T12:31:11.811+09:00  INFO 18804 --- [ch10] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-03-21T12:31:11.811+09:00  INFO 18804 --- [ch10] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown initiated...
+2025-03-21T12:31:11.814+09:00  INFO 18804 --- [ch10] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown completed.
